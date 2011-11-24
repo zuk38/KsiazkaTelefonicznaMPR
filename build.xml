@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name= "Ksiązka Telefoniczna">
+	
+
+<property name="bin" value="bin"></property>
+<property name="src" value="src"></property>
+<property name="jar" value="${bin}/jar"></property>
 
 <target name ="compile">
 <mkdir dir="bin" />
@@ -10,7 +15,7 @@
 <mkdir dir ="bin/jar"/>
 <jar destfile="${jar}/ksiazkaTel.jar" basedir="bin" >
 <manifest>
-<attribute name="Main-Class" value="kat.Main" />
+<attribute name="Main-Class" value="Main" />
 </manifest>
 </jar>
 </target>
