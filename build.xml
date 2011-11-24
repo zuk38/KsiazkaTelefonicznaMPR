@@ -3,7 +3,6 @@
 	
 
 <property name="bin" value="bin"></property>
-<property name="src" value="src"></property>
 <property name="jar" value="${bin}/jar"></property>
 
 <target name ="compile">
